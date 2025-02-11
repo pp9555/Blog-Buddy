@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Blog Buddy",
+    "version": "1.0",
+    "description": "A Chrome extension to take notes from blogs.",
+    "permissions": [
+        "activeTab",
+        "storage"
+    ],
+    "action": {
+        "default_icon": {
+            "16": "icon.png"
+        },
+        "default_popup": "popup.html"
+    },
+    "options_page": "options.html",
+    "commands": {
+        "save-note": {
+            "suggested_key": { "default": "Ctrl+S" },
+            "description": "Save Note"
+        }
+    }
+}
